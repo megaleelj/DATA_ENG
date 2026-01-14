@@ -1,0 +1,400 @@
+[2025-12-21T07:25:37.655+0000] {processor.py:161} INFO - Started process (PID=9821) to work on /opt/airflow/dags/main.py
+[2025-12-21T07:25:37.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T07:25:37.662+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:25:37.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T07:25:38.487+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T07:25:38.680+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:25:38.680+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T07:25:38.786+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:25:38.785+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T07:25:38.821+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:25:38.818+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T07:25:38.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.266 seconds
+[2025-12-21T07:26:09.550+0000] {processor.py:161} INFO - Started process (PID=9828) to work on /opt/airflow/dags/main.py
+[2025-12-21T07:26:09.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T07:26:09.559+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:26:09.557+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T07:26:10.046+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T07:26:10.252+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:26:10.252+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T07:26:10.490+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:26:10.489+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T07:26:10.555+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:26:10.554+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T07:26:10.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.169 seconds
+[2025-12-21T07:26:41.156+0000] {processor.py:161} INFO - Started process (PID=9835) to work on /opt/airflow/dags/main.py
+[2025-12-21T07:26:41.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T07:26:41.174+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:26:41.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T07:26:41.940+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T07:26:42.202+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:26:42.201+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T07:26:42.401+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:26:42.400+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T07:26:42.439+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:26:42.438+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T07:26:42.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.430 seconds
+[2025-12-21T07:27:12.989+0000] {processor.py:161} INFO - Started process (PID=9848) to work on /opt/airflow/dags/main.py
+[2025-12-21T07:27:12.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T07:27:12.998+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:27:12.997+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T07:27:13.510+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T07:27:13.722+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:27:13.713+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T07:27:13.929+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:27:13.928+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T07:27:13.983+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:27:13.983+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T07:27:14.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.175 seconds
+[2025-12-21T07:27:44.761+0000] {processor.py:161} INFO - Started process (PID=9855) to work on /opt/airflow/dags/main.py
+[2025-12-21T07:27:44.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T07:27:44.766+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:27:44.765+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T07:27:45.004+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T07:27:45.065+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:27:45.065+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T07:27:45.109+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:27:45.108+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T07:27:45.119+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:27:45.119+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T07:27:45.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.431 seconds
+[2025-12-21T07:28:15.980+0000] {processor.py:161} INFO - Started process (PID=9863) to work on /opt/airflow/dags/main.py
+[2025-12-21T07:28:15.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T07:28:15.988+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:28:15.987+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T07:28:16.297+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T07:28:16.388+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:28:16.388+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T07:28:16.473+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:28:16.473+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T07:28:16.506+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:28:16.505+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T07:28:16.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.608 seconds
+[2025-12-21T07:28:46.832+0000] {processor.py:161} INFO - Started process (PID=9870) to work on /opt/airflow/dags/main.py
+[2025-12-21T07:28:46.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T07:28:46.836+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:28:46.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T07:28:47.042+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T07:28:47.122+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:28:47.122+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T07:28:47.164+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:28:47.164+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T07:28:47.174+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:28:47.174+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T07:28:47.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.399 seconds
+[2025-12-21T07:29:17.403+0000] {processor.py:161} INFO - Started process (PID=9877) to work on /opt/airflow/dags/main.py
+[2025-12-21T07:29:17.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T07:29:17.407+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:29:17.407+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T07:29:17.572+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T07:29:17.619+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:29:17.618+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T07:29:17.652+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:29:17.651+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T07:29:17.659+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:29:17.659+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T07:29:17.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.288 seconds
+[2025-12-21T07:29:47.922+0000] {processor.py:161} INFO - Started process (PID=9884) to work on /opt/airflow/dags/main.py
+[2025-12-21T07:29:47.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T07:29:47.926+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:29:47.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T07:29:48.044+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T07:29:48.082+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:29:48.082+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T07:29:48.114+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:29:48.114+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T07:29:48.122+0000] {logging_mixin.py:188} INFO - [2025-12-21T07:29:48.121+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T07:29:48.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.233 seconds
+[2025-12-21T10:46:01.357+0000] {processor.py:161} INFO - Started process (PID=9891) to work on /opt/airflow/dags/main.py
+[2025-12-21T10:46:01.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T10:46:01.365+0000] {logging_mixin.py:188} INFO - [2025-12-21T10:46:01.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T10:46:01.799+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T10:46:01.939+0000] {logging_mixin.py:188} INFO - [2025-12-21T10:46:01.938+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T10:46:02.064+0000] {logging_mixin.py:188} INFO - [2025-12-21T10:46:02.063+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T10:46:02.093+0000] {logging_mixin.py:188} INFO - [2025-12-21T10:46:02.093+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T10:46:02.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.944 seconds
+[2025-12-21T13:26:07.330+0000] {processor.py:161} INFO - Started process (PID=9892) to work on /opt/airflow/dags/main.py
+[2025-12-21T13:26:07.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T13:26:07.337+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:26:07.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T13:26:09.398+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T13:26:10.565+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:26:10.557+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T13:26:10.703+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:26:10.702+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T13:26:10.746+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:26:10.745+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T13:26:10.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 3.660 seconds
+[2025-12-21T13:26:41.325+0000] {processor.py:161} INFO - Started process (PID=9899) to work on /opt/airflow/dags/main.py
+[2025-12-21T13:26:41.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T13:26:41.336+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:26:41.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T13:26:41.853+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T13:26:42.033+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:26:42.032+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T13:26:42.178+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:26:42.178+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T13:26:42.217+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:26:42.216+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T13:26:42.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.003 seconds
+[2025-12-21T13:27:13.041+0000] {processor.py:161} INFO - Started process (PID=9907) to work on /opt/airflow/dags/main.py
+[2025-12-21T13:27:13.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T13:27:13.060+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:27:13.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T13:27:13.621+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T13:27:13.848+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:27:13.846+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T13:27:14.083+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:27:14.082+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T13:27:14.144+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:27:14.134+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T13:27:14.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.289 seconds
+[2025-12-21T13:27:44.563+0000] {processor.py:161} INFO - Started process (PID=9914) to work on /opt/airflow/dags/main.py
+[2025-12-21T13:27:44.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T13:27:44.590+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:27:44.584+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T13:27:45.410+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T13:27:45.577+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:27:45.577+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T13:27:45.731+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:27:45.730+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-20 15:00:00+00:00, run_after=2025-12-21 15:00:00+00:00
+[2025-12-21T13:27:45.782+0000] {logging_mixin.py:188} INFO - [2025-12-21T13:27:45.782+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-20 14:00:00+00:00, run_after=2025-12-21 14:00:00+00:00
+[2025-12-21T13:27:45.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.362 seconds
+[2025-12-21T16:21:29.412+0000] {processor.py:161} INFO - Started process (PID=9928) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:21:29.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:21:29.470+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:21:29.469+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:21:31.483+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:21:31.653+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:21:31.652+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:21:31.773+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:21:31.773+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:21:31.787+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:21:31.786+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:21:31.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 2.502 seconds
+[2025-12-21T16:22:03.454+0000] {processor.py:161} INFO - Started process (PID=9935) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:22:03.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:22:03.478+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:22:03.476+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:22:04.806+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:22:05.331+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:22:05.330+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:22:05.602+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:22:05.591+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:22:05.650+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:22:05.649+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:22:05.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 2.402 seconds
+[2025-12-21T16:22:36.381+0000] {processor.py:161} INFO - Started process (PID=9942) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:22:36.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:22:36.389+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:22:36.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:22:36.695+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:22:36.801+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:22:36.800+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:22:36.864+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:22:36.863+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:22:36.878+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:22:36.878+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:22:36.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.564 seconds
+[2025-12-21T16:23:07.264+0000] {processor.py:161} INFO - Started process (PID=9949) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:23:07.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:23:07.268+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:23:07.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:23:07.407+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:23:07.452+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:23:07.452+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:23:07.480+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:23:07.480+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:23:07.487+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:23:07.487+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:23:07.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.260 seconds
+[2025-12-21T16:23:37.772+0000] {processor.py:161} INFO - Started process (PID=9956) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:23:37.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:23:37.775+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:23:37.774+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:23:37.947+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:23:38.013+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:23:38.012+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:23:38.055+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:23:38.055+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:23:38.067+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:23:38.067+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:23:38.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.337 seconds
+[2025-12-21T16:24:08.388+0000] {processor.py:161} INFO - Started process (PID=9963) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:24:08.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:24:08.392+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:24:08.391+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:24:08.578+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:24:08.635+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:24:08.634+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:24:08.673+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:24:08.673+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:24:08.684+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:24:08.684+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:24:08.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.349 seconds
+[2025-12-21T16:24:38.980+0000] {processor.py:161} INFO - Started process (PID=9970) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:24:38.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:24:38.983+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:24:38.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:24:39.149+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:24:39.203+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:24:39.203+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:24:39.239+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:24:39.239+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:24:39.247+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:24:39.247+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:24:39.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.301 seconds
+[2025-12-21T16:25:09.581+0000] {processor.py:161} INFO - Started process (PID=9977) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:25:09.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:25:09.596+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:25:09.588+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:25:09.977+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:25:10.163+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:25:10.160+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:25:10.275+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:25:10.274+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:25:10.301+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:25:10.299+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:25:10.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.822 seconds
+[2025-12-21T16:25:40.813+0000] {processor.py:161} INFO - Started process (PID=9984) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:25:40.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:25:40.831+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:25:40.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:25:41.431+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:25:41.639+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:25:41.638+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:25:41.795+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:25:41.794+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:25:41.835+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:25:41.834+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:25:41.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.180 seconds
+[2025-12-21T16:26:12.234+0000] {processor.py:161} INFO - Started process (PID=9991) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:26:12.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:26:12.243+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:26:12.242+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:26:12.728+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:26:12.876+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:26:12.875+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:26:13.039+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:26:13.039+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:26:13.078+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:26:13.078+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:26:13.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.982 seconds
+[2025-12-21T16:26:43.521+0000] {processor.py:161} INFO - Started process (PID=9998) to work on /opt/airflow/dags/main.py
+[2025-12-21T16:26:43.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T16:26:43.528+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:26:43.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T16:26:43.908+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T16:26:44.045+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:26:44.045+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T16:26:44.148+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:26:44.148+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T16:26:44.169+0000] {logging_mixin.py:188} INFO - [2025-12-21T16:26:44.168+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T16:26:44.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.745 seconds
+[2025-12-21T17:13:09.081+0000] {processor.py:161} INFO - Started process (PID=10005) to work on /opt/airflow/dags/main.py
+[2025-12-21T17:13:09.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T17:13:09.105+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:13:09.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T17:13:10.418+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T17:13:10.674+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:13:10.674+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T17:13:10.836+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:13:10.835+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T17:13:10.870+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:13:10.870+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T17:13:11.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 2.098 seconds
+[2025-12-21T17:13:41.559+0000] {processor.py:161} INFO - Started process (PID=10012) to work on /opt/airflow/dags/main.py
+[2025-12-21T17:13:41.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T17:13:41.571+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:13:41.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T17:13:41.950+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T17:13:42.073+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:13:42.072+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T17:13:42.153+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:13:42.153+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T17:13:42.171+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:13:42.170+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T17:13:42.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.700 seconds
+[2025-12-21T17:14:12.661+0000] {processor.py:161} INFO - Started process (PID=10019) to work on /opt/airflow/dags/main.py
+[2025-12-21T17:14:12.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T17:14:12.665+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:14:12.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T17:14:12.893+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T17:14:12.961+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:14:12.961+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T17:14:13.014+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:14:13.014+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T17:14:13.028+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:14:13.028+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T17:14:13.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.417 seconds
+[2025-12-21T17:14:43.531+0000] {processor.py:161} INFO - Started process (PID=10026) to work on /opt/airflow/dags/main.py
+[2025-12-21T17:14:43.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T17:14:43.545+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:14:43.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T17:14:44.127+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T17:14:44.285+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:14:44.284+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T17:14:44.390+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:14:44.389+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T17:14:44.429+0000] {logging_mixin.py:188} INFO - [2025-12-21T17:14:44.428+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T17:14:44.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.993 seconds
+[2025-12-21T18:01:32.636+0000] {processor.py:161} INFO - Started process (PID=10033) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:01:33.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:01:33.318+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:01:33.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:01:40.190+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:01:40.981+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:01:40.980+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:01:41.324+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:01:41.317+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:01:41.700+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:01:41.700+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:01:41.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 9.318 seconds
+[2025-12-21T18:02:12.650+0000] {processor.py:161} INFO - Started process (PID=10045) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:02:12.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:02:12.666+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:02:12.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:02:13.470+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:02:13.615+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:02:13.614+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:02:13.724+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:02:13.723+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:02:13.750+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:02:13.749+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:02:13.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.210 seconds
+[2025-12-21T18:02:44.174+0000] {processor.py:161} INFO - Started process (PID=10052) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:02:44.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:02:44.180+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:02:44.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:02:44.469+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:02:44.550+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:02:44.549+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:02:44.611+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:02:44.611+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:02:44.627+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:02:44.627+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:02:44.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.506 seconds
+[2025-12-21T18:03:15.001+0000] {processor.py:161} INFO - Started process (PID=10059) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:03:15.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:03:15.006+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:03:15.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:03:15.250+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:03:15.317+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:03:15.317+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:03:15.362+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:03:15.362+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:03:15.375+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:03:15.374+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:03:15.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.428 seconds
+[2025-12-21T18:03:45.773+0000] {processor.py:161} INFO - Started process (PID=10066) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:03:45.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:03:45.779+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:03:45.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:03:45.967+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:03:46.032+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:03:46.032+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:03:46.076+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:03:46.075+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:03:46.087+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:03:46.087+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:03:46.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.358 seconds
+[2025-12-21T18:04:16.931+0000] {processor.py:161} INFO - Started process (PID=10073) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:04:16.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:04:16.935+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:04:16.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:04:17.159+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:04:17.220+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:04:17.219+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:04:17.266+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:04:17.266+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:04:17.278+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:04:17.278+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:04:17.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.405 seconds
+[2025-12-21T18:04:47.747+0000] {processor.py:161} INFO - Started process (PID=10080) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:04:47.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:04:47.758+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:04:47.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:04:47.973+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:04:48.066+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:04:48.065+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:04:48.106+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:04:48.106+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:04:48.114+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:04:48.114+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:04:48.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.416 seconds
+[2025-12-21T18:05:18.451+0000] {processor.py:161} INFO - Started process (PID=10087) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:05:18.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:05:18.457+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:05:18.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:05:18.757+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:05:18.851+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:05:18.850+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:05:18.909+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:05:18.908+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:05:18.926+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:05:18.926+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:05:18.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.541 seconds
+[2025-12-21T18:05:49.344+0000] {processor.py:161} INFO - Started process (PID=10094) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:05:49.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:05:49.348+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:05:49.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:05:49.561+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:05:49.612+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:05:49.611+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:05:49.649+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:05:49.648+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:05:49.658+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:05:49.657+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:05:49.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.370 seconds
+[2025-12-21T18:06:20.272+0000] {processor.py:161} INFO - Started process (PID=10102) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:06:20.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:06:20.281+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:06:20.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:06:20.631+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:06:20.763+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:06:20.762+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:06:20.840+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:06:20.840+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:06:20.862+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:06:20.861+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:06:20.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.713 seconds
+[2025-12-21T18:06:51.683+0000] {processor.py:161} INFO - Started process (PID=10109) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:06:51.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:06:51.687+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:06:51.686+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:06:51.881+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:06:51.939+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:06:51.939+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:06:51.983+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:06:51.982+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:06:52.000+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:06:51.999+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:06:52.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.415 seconds
+[2025-12-21T18:07:23.589+0000] {processor.py:161} INFO - Started process (PID=10116) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:07:23.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:07:23.607+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:07:23.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:07:24.236+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:07:24.368+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:07:24.368+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:07:24.473+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:07:24.472+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:07:24.501+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:07:24.500+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:07:24.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 1.053 seconds
+[2025-12-21T18:07:54.739+0000] {processor.py:161} INFO - Started process (PID=10123) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:07:54.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:07:54.743+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:07:54.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:07:55.013+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:07:55.124+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:07:55.123+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:07:55.219+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:07:55.219+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:07:55.237+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:07:55.236+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:07:55.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.602 seconds
+[2025-12-21T18:08:25.748+0000] {processor.py:161} INFO - Started process (PID=10130) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:08:25.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:08:25.760+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:08:25.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:08:25.970+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:08:26.039+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:08:26.038+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:08:26.089+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:08:26.088+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:08:26.103+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:08:26.102+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:08:26.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.416 seconds
+[2025-12-21T18:08:56.431+0000] {processor.py:161} INFO - Started process (PID=10137) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:08:56.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:08:56.436+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:08:56.435+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:08:56.639+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:08:56.712+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:08:56.712+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:08:56.764+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:08:56.763+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:08:56.775+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:08:56.775+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:08:56.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.399 seconds
+[2025-12-21T18:09:27.069+0000] {processor.py:161} INFO - Started process (PID=10144) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:09:27.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:09:27.073+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:09:27.073+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:09:27.230+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:09:27.270+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:09:27.270+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:09:27.297+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:09:27.297+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:09:27.305+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:09:27.304+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:09:27.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.272 seconds
+[2025-12-21T18:09:57.561+0000] {processor.py:161} INFO - Started process (PID=10151) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:09:57.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:09:57.563+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:09:57.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:09:57.682+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:09:57.725+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:09:57.725+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:09:57.747+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:09:57.747+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:09:57.754+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:09:57.754+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:09:57.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.217 seconds
+[2025-12-21T18:10:28.026+0000] {processor.py:161} INFO - Started process (PID=10158) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:10:28.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:10:28.030+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:10:28.029+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:10:28.198+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:10:28.247+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:10:28.247+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:10:28.281+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:10:28.281+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:10:28.290+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:10:28.290+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:10:28.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.301 seconds
+[2025-12-21T18:10:58.564+0000] {processor.py:161} INFO - Started process (PID=10165) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:10:58.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:10:58.566+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:10:58.566+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:10:58.668+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:10:58.702+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:10:58.701+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:10:58.723+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:10:58.723+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:10:58.728+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:10:58.728+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:10:58.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.193 seconds
+[2025-12-21T18:11:28.827+0000] {processor.py:161} INFO - Started process (PID=10172) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:11:28.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:11:28.832+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:11:28.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:11:28.974+0000] {processor.py:840} INFO - DAG(s) 'update_db', 'youtube_video_stats' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:11:29.016+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:11:29.016+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:11:29.046+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:11:29.046+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:11:29.053+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:11:29.053+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:11:29.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.259 seconds
+[2025-12-21T18:11:59.203+0000] {processor.py:161} INFO - Started process (PID=10179) to work on /opt/airflow/dags/main.py
+[2025-12-21T18:11:59.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-12-21T18:11:59.207+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:11:59.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-12-21T18:11:59.348+0000] {processor.py:840} INFO - DAG(s) 'youtube_video_stats', 'update_db' retrieved from /opt/airflow/dags/main.py
+[2025-12-21T18:11:59.387+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:11:59.386+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-12-21T18:11:59.414+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:11:59.414+0000] {dag.py:3954} INFO - Setting next_dagrun for update_db to 2025-12-21 15:00:00+00:00, run_after=2025-12-22 15:00:00+00:00
+[2025-12-21T18:11:59.422+0000] {logging_mixin.py:188} INFO - [2025-12-21T18:11:59.422+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_video_stats to 2025-12-21 14:00:00+00:00, run_after=2025-12-22 14:00:00+00:00
+[2025-12-21T18:11:59.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.249 seconds

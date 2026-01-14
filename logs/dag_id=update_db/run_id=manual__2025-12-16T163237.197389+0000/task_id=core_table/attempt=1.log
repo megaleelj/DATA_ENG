@@ -1,0 +1,44 @@
+[2025-12-16T16:32:43.040+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-16T16:32:43.062+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_db.core_table manual__2025-12-16T16:32:37.197389+00:00 [queued]>
+[2025-12-16T16:32:43.070+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_db.core_table manual__2025-12-16T16:32:37.197389+00:00 [queued]>
+[2025-12-16T16:32:43.072+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-12-16T16:32:43.085+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): core_table> on 2025-12-16 16:32:37.197389+00:00
+[2025-12-16T16:32:43.090+0000] {standard_task_runner.py:63} INFO - Started process 7751 to run task
+[2025-12-16T16:32:43.093+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'update_db', 'core_table', 'manual__2025-12-16T16:32:37.197389+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpr7py8b6l']
+[2025-12-16T16:32:43.094+0000] {standard_task_runner.py:91} INFO - Job 36: Subtask core_table
+[2025-12-16T16:32:43.144+0000] {task_command.py:426} INFO - Running <TaskInstance: update_db.core_table manual__2025-12-16T16:32:37.197389+00:00 [running]> on host 028d998475be
+[2025-12-16T16:32:43.214+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='data@engineers.com' AIRFLOW_CTX_DAG_OWNER='dataengineers' AIRFLOW_CTX_DAG_ID='update_db' AIRFLOW_CTX_TASK_ID='core_table' AIRFLOW_CTX_EXECUTION_DATE='2025-12-16T16:32:37.197389+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-16T16:32:37.197389+00:00'
+[2025-12-16T16:32:43.216+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-12-16T16:32:43.225+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2025-12-16T16:32:43.231+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2025-12-16T16:32:43.237+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2025-12-16T16:32:43.252+0000] {dwh.py:104} ERROR - An error occurred during the update of core table: 's'
+[2025-12-16T16:32:43.253+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-12-16T16:32:43.254+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 86, in core_table
+    transformed_row = transform_data(core_row)  # adds Video_Type + converts Duration
+  File "/opt/airflow/dags/datawarehouse/data_transformation.py", line 23, in transform_data
+    duration_td = parse_duration(row['Duration'])
+  File "/opt/airflow/dags/datawarehouse/data_transformation.py", line 18, in parse_duration
+    days=values["D"], hours=values["H"], minutes=values["M"], seconds=values["s"]
+KeyError: 's'
+[2025-12-16T16:32:43.270+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=update_db, task_id=core_table, run_id=manual__2025-12-16T16:32:37.197389+00:00, execution_date=20251216T163237, start_date=20251216T163243, end_date=20251216T163243
+[2025-12-16T16:32:43.284+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 36 for task core_table ('s'; 7751)
+[2025-12-16T16:32:43.306+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-12-16T16:32:43.324+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-16T16:32:43.327+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

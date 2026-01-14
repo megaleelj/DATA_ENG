@@ -1,0 +1,19 @@
+[2026-01-05T15:18:56.096+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-05T15:18:56.204+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_video_stats.get_playlist_id scheduled__2026-01-04T14:00:00+00:00 [queued]>
+[2026-01-05T15:18:56.230+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_video_stats.get_playlist_id scheduled__2026-01-04T14:00:00+00:00 [queued]>
+[2026-01-05T15:18:56.231+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-05T15:18:56.272+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): get_playlist_id> on 2026-01-04 14:00:00+00:00
+[2026-01-05T15:18:56.300+0000] {standard_task_runner.py:63} INFO - Started process 25863 to run task
+[2026-01-05T15:18:56.305+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'youtube_video_stats', 'get_playlist_id', 'scheduled__2026-01-04T14:00:00+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpdvccev3l']
+[2026-01-05T15:18:56.307+0000] {standard_task_runner.py:91} INFO - Job 124: Subtask get_playlist_id
+[2026-01-05T15:18:56.450+0000] {task_command.py:426} INFO - Running <TaskInstance: youtube_video_stats.get_playlist_id scheduled__2026-01-04T14:00:00+00:00 [running]> on host 6021bea33cbc
+[2026-01-05T15:18:56.720+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='data@engineers.com' AIRFLOW_CTX_DAG_OWNER='dataengineers' AIRFLOW_CTX_DAG_ID='youtube_video_stats' AIRFLOW_CTX_TASK_ID='get_playlist_id' AIRFLOW_CTX_EXECUTION_DATE='2026-01-04T14:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-04T14:00:00+00:00'
+[2026-01-05T15:18:56.723+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-05T17:37:08.618+0000] {local_task_job_runner.py:214} ERROR - Heartbeat time limit exceeded!
+[2026-01-05T17:37:09.852+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-01-05T17:37:10.479+0000] {process_utils.py:132} INFO - Sending 15 to group 25863. PIDs of all processes in the group: [25863]
+[2026-01-05T17:37:10.653+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 25863
+[2026-01-05T17:38:10.942+0000] {process_utils.py:150} WARNING - process psutil.Process(pid=25863, name='airflow task ru', status='disk-sleep', started='15:18:55') did not respond to SIGTERM. Trying SIGKILL
+[2026-01-05T17:38:11.014+0000] {process_utils.py:87} INFO - Sending the signal 9 to group 25863
+[2026-01-05T17:39:11.030+0000] {process_utils.py:161} ERROR - Process psutil.Process(pid=25863, name='airflow task ru', status='disk-sleep', started='15:18:55') (25863) could not be killed. Giving up.
+[2026-01-05T17:39:11.044+0000] {standard_task_runner.py:178} ERROR - Job 124 was killed before it finished (likely due to running out of memory)

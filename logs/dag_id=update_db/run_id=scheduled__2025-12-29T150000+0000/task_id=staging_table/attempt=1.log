@@ -1,0 +1,42 @@
+[2025-12-30T18:01:11.939+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-30T18:01:13.692+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_db.staging_table scheduled__2025-12-29T15:00:00+00:00 [queued]>
+[2025-12-30T18:01:14.060+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_db.staging_table scheduled__2025-12-29T15:00:00+00:00 [queued]>
+[2025-12-30T18:01:14.071+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-12-30T18:01:14.491+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): staging_table> on 2025-12-29 15:00:00+00:00
+[2025-12-30T18:01:14.527+0000] {standard_task_runner.py:63} INFO - Started process 19103 to run task
+[2025-12-30T18:01:14.551+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'update_db', 'staging_table', 'scheduled__2025-12-29T15:00:00+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp1mtlcyy_']
+[2025-12-30T18:01:14.568+0000] {standard_task_runner.py:91} INFO - Job 107: Subtask staging_table
+[2025-12-30T18:01:15.174+0000] {task_command.py:426} INFO - Running <TaskInstance: update_db.staging_table scheduled__2025-12-29T15:00:00+00:00 [running]> on host 6021bea33cbc
+[2025-12-30T18:01:16.644+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='data@engineers.com' AIRFLOW_CTX_DAG_OWNER='dataengineers' AIRFLOW_CTX_DAG_ID='update_db' AIRFLOW_CTX_TASK_ID='staging_table' AIRFLOW_CTX_EXECUTION_DATE='2025-12-29T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-29T15:00:00+00:00'
+[2025-12-30T18:01:16.646+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-12-30T18:01:16.961+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2025-12-30T18:01:17.032+0000] {data_loading.py:12} INFO - Processing file: ENG_data_2025-12-30
+[2025-12-30T18:01:17.035+0000] {data_loading.py:19} ERROR - File not found:./data/ENG_data_2025-12-30.json
+[2025-12-30T18:01:17.036+0000] {dwh.py:46} ERROR - An error occurred during the update of staging table: [Errno 2] No such file or directory: './data/ENG_data_2025-12-30.json'
+[2025-12-30T18:01:17.037+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-12-30T18:01:17.041+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 20, in staging_table
+    ENG_data = load_data()
+  File "/opt/airflow/dags/datawarehouse/data_loading.py", line 14, in load_data
+    with open(file_path,'r', encoding='utf-8') as raw_data:
+FileNotFoundError: [Errno 2] No such file or directory: './data/ENG_data_2025-12-30.json'
+[2025-12-30T18:01:17.216+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=update_db, task_id=staging_table, run_id=scheduled__2025-12-29T15:00:00+00:00, execution_date=20251229T150000, start_date=20251230T180113, end_date=20251230T180117
+[2025-12-30T18:01:17.298+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 107 for task staging_table ([Errno 2] No such file or directory: './data/ENG_data_2025-12-30.json'; 19103)
+[2025-12-30T18:01:17.429+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-12-30T18:01:17.540+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-30T18:01:17.578+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

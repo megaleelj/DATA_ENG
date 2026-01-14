@@ -1,0 +1,1 @@
+[2026-01-01T08:55:31.237+0000] {scheduler_job_runner.py:843} ERROR - Executor reports task instance <TaskInstance: youtube_video_stats.get_playlist_id scheduled__2025-12-30T14:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
